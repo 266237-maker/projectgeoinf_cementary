@@ -1,0 +1,83 @@
+/* Podstawowe ustawienia strony */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Nagłówek */
+header {
+    background-color: #1f4e5f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Sekcja wyszukiwania */
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #eaeff2;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#controls input {
+    padding: 8px 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 1rem;
+}
+
+#controls button {
+    padding: 9px 15px;
+    background-color: #1f4e5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#controls button:hover {
+    background-color: #27697a;
+}
+
+/* Mapa */
+#map {
+    flex: 1;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sekcja szczegółów */
+#details {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#details h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1f4e5f;
+    color: white;
+    font-size: 0.9rem;
+}

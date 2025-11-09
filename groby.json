@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "imie": "Jan",
+        "nazwisko": "Kowalski",
+        "data_smierci": "1990-05-01",
+        "miejsce_urodzenia": "Warszawa",
+        "lat": 52.2299,
+        "lng": 21.013,
+        "zdjecie": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gravestone_generic.jpg",
+        "opis": "Ojciec rodziny, zmarł w wieku 70 lat."
+    },
+    {
+        "id": 2,
+        "imie": "Anna",
+        "nazwisko": "Nowak",
+        "data_smierci": "2005-11-10",
+        "miejsce_urodzenia": "Kraków",
+        "lat": 52.2295,
+        "lng": 21.014,
+        "zdjecie": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Grave_generic_female.jpg",
+        "opis": "Miłośniczka sztuki i przyrody."
+    },
+    {
+        "id": 3,
+        "imie": "Piotr",
+        "nazwisko": "Zieliński",
+        "data_smierci": "2018-03-22",
+        "miejsce_urodzenia": "Poznań",
+        "lat": 52.2302,
+        "lng": 21.012,
+        "zdjecie": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Grave_generic_male.jpg",
+        "opis": "Zasłużony nauczyciel lokalnej szkoły."
+    }
+]
