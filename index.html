@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Mapa cmentarza – groby</title>
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -14,6 +15,7 @@
     </header>
 
     <div id="controls">
+
         <div class="search-group">
             <input type="text" id="q-imie" placeholder="Imię" />
             <input type="text" id="q-nazwisko" placeholder="Nazwisko" />
@@ -23,13 +25,10 @@
         </div>
 
         <div class="download-group">
-            <button id="download-grave" disabled>
-                Pobierz dane grobu (JSON)
-            </button>
-            <button id="download-all">
-                Pobierz wszystkie groby (GeoJSON)
-            </button>
+            <button id="download-grave" disabled>Pobierz dane grobu (JSON)</button>
+            <button id="download-all">Pobierz wszystkie groby (GeoJSON)</button>
         </div>
+
     </div>
 
     <div id="map"></div>
