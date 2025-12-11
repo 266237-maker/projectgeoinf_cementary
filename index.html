@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="utf-8">
-    <title>Mapa cmentarza</title>
+    <title>Mapa cmentarza – groby</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,12 +12,32 @@
     <header>
         <h1>Mapa cmentarza</h1>
     </header>
+
     <div id="controls">
-        <input id="q" placeholder="Imię, nazwisko lub data" />
-        <button id="search">Szukaj</button>
+        <div class="search-group">
+            <input type="text" id="q-imie" placeholder="Imię" />
+            <input type="text" id="q-nazwisko" placeholder="Nazwisko" />
+            <input type="text" id="q-urodzenie" placeholder="Data urodzenia (dd.mm.rrrr)" />
+            <input type="text" id="q-smierc" placeholder="Data śmierci (dd.mm.rrrr)" />
+            <button id="search">Szukaj</button>
+        </div>
+
+        <div class="download-group">
+            <button id="download-grave" disabled>
+                Pobierz dane grobu (JSON)
+            </button>
+            <button id="download-all">
+                Pobierz wszystkie groby (GeoJSON)
+            </button>
+        </div>
     </div>
-    <div id="map" style="height:70vh"></div>
-    <div id="details"></div>
+
+    <div id="map"></div>
+
+    <div id="details">
+        <h2>Szczegóły grobu</h2>
+        <p>Wybierz grób z mapy albo wyszukaj go powyżej.</p>
+    </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
