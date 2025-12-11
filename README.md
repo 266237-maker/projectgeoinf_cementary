@@ -59,7 +59,7 @@ Struktura katalogów:
 └─ Data/
    ├─ granica_cmentarza.geojson
    └─ mogily.geojson
-
+```
 
 
 ## Instrukcja uruchomienia mapy
@@ -78,6 +78,6 @@ znajdź plik index.html,
 kliknij go dwukrotnie,
 mapa uruchomi się w Twojej przeglądarce.
 
--Wymagania
+## Wymagania
 żadnej instalacji nie trzeba,
 wystarczy dowolna aktualna przeglądarka internetowa.
