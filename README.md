@@ -62,36 +62,22 @@ Struktura katalogów:
 
 
 
--Instrukcja uruchomienia mapy
+## Instrukcja uruchomienia mapy
 
---Pobranie plików
-
----wejdź na stronę projektu na GitHubie,
-
----kliknij Code → Download ZIP,
-
----zapisz plik na komputerze.
-
---Rozpakowanie archiwum
-
----kliknij prawym przyciskiem pobrane archiwum .zip,
-
----wybierz Wyodrębnij tutaj,
-
----poczekaj aż powstanie folder z plikami mapy.
-
---Uruchomienie mapy
-
----otwórz rozpakowany folder,
-
----znajdź plik index.html,
-
----kliknij go dwukrotnie,
-
----mapa uruchomi się w Twojej przeglądarce.
+Pobranie plików
+wejdź na stronę projektu na GitHubie,
+kliknij Code → Download ZIP,
+zapisz plik na komputerze.
+Rozpakowanie archiwum
+kliknij prawym przyciskiem pobrane archiwum .zip,
+wybierz Wyodrębnij tutaj,
+poczekaj aż powstanie folder z plikami mapy.
+Uruchomienie mapy
+otwórz rozpakowany folder,
+znajdź plik index.html,
+kliknij go dwukrotnie,
+mapa uruchomi się w Twojej przeglądarce.
 
 -Wymagania
-
---żadnej instalacji nie trzeba,
-
---wystarczy dowolna aktualna przeglądarka internetowa.
+żadnej instalacji nie trzeba,
+wystarczy dowolna aktualna przeglądarka internetowa.
